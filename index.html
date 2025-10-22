@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Peña El Encuentro</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <h1>Peña El Encuentro</h1>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#eventos">Eventos</a>
+      <a href="#galeria">Galería</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section id="inicio" class="hero">
+    <h2>Bienvenidos a la Peña</h2>
+    <p>Un lugar de encuentro, tradición y alegría.</p>
+    <button onclick="scrollToSection('eventos')">Ver próximos eventos</button>
+  </section>
+
+  <section id="eventos">
+    <h2>Próximos eventos</h2>
+    <div class="card">
+      <h3>Fiesta de Halloween</h3>
+      <p>📅 31 de Octubre - 🎭 Música, disfraces y diversión</p>
+    </div>
+    <div class="card">
+      <h3>Ruta de Tapas</h3>
+      <p>📅 10 de Noviembre - 🍻 Tapas locales y ambiente familiar</p>
+    </div>
+  </section>
+
+  <section id="galeria">
+    <h2>Galería</h2>
+    <div class="galeria-grid">
+      <img src="https://picsum.photos/300/200?random=1" alt="Evento 1">
+      <img src="https://picsum.photos/300/200?random=2" alt="Evento 2">
+      <img src="https://picsum.photos/300/200?random=3" alt="Evento 3">
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>📍 Calle del Encuentro, Málaga</p>
+    <p>📞 600 123 456</p>
+    <p>📧 contacto@penaelencuentro.es</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Peña El Encuentro | Web creada por Jesús Orellana</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
