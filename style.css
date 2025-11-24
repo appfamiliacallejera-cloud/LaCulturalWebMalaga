@@ -102,3 +102,7 @@ footer {
   background: var(--color-secundario);
   color: white;
 }
+
+.titulo-amarillo {
+    color: yellow;
+}
